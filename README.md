@@ -4,6 +4,21 @@ I collection of scripts, useful for managing and updating a CS2 dedicated server
 
 Has support to automatically update CS2, Metamod and CounterStrikeSharp
 
+## Usage
+```cs2 start``` - Starts the CS2 dedicated server if not already running
+
+```cs2 stop``` - Stops the CS2 dedicated server if running
+
+```cs2 restart``` - Stops and then starts the CS2 dedicated server
+
+```cs2 status``` - Prints if the server is running or not
+
+```cs2 console``` - Connects to the server console
+
+```cs2 update``` - Updates CS2, Metamod & CounterStrikeSharp to latest versions, then starts the server
+
+```cs2 metamod``` - Updates Metamod to the latest version
+
 ## Setup
 
 Add the following to your .bashrc file
@@ -88,21 +103,6 @@ cs2() {
     esac
 }
 ```
-
-## Usage
-```cs2 start``` - Starts the CS2 dedicated server if not already running
-
-```cs2 stop``` - Stops the CS2 dedicated server if running
-
-```cs2 restart``` - Stops and then starts the CS2 dedicated server
-
-```cs2 status``` - Prints if the server is running or not
-
-```cs2 console``` - Connects to the server console
-
-```cs2 update``` - Updates CS2, Metamod & CounterStrikeSharp to latest versions, then starts the server
-
-```cs2 metamod``` - Updates Metamod to the latest version
 
 ```cs2 csharp``` - Updates CounterStrikeSharp to the latest version
 
