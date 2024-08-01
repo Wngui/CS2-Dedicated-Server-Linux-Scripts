@@ -19,6 +19,10 @@ Has support to automatically update CS2, Metamod and CounterStrikeSharp
 
 ```cs2 metamod``` - Updates Metamod to the latest version
 
+```cs2 csharp``` - Updates CounterStrikeSharp to the latest version
+
+```cs2 checkupdate``` - Same as update, but only continues if a newer version of CS2 is available
+
 ## Setup
 
 Add the following to your .bashrc file
@@ -103,8 +107,3 @@ cs2() {
     esac
 }
 ```
-
-```cs2 csharp``` - Updates CounterStrikeSharp to the latest version
-
-```cs2 checkupdate``` - Same as update, but only continues if a newer version of CS2 is available
-
