@@ -91,11 +91,20 @@ cs2() {
 
 ## Usage
 ```cs2 start``` - Starts the CS2 dedicated server if not already running
+
 ```cs2 stop``` - Stops the CS2 dedicated server if running
+
 ```cs2 restart``` - Stops and then starts the CS2 dedicated server
+
 ```cs2 status``` - Prints if the server is running or not
+
 ```cs2 console``` - Connects to the server console
+
 ```cs2 update``` - Updates CS2, Metamod & CounterStrikeSharp to latest versions, then starts the server
+
 ```cs2 metamod``` - Updates Metamod to the latest version
+
 ```cs2 csharp``` - Updates CounterStrikeSharp to the latest version
+
 ```cs2 checkupdate``` - Same as update, but only continues if a newer version of CS2 is available
+
