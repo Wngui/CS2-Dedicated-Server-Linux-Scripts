@@ -8,7 +8,7 @@ Has support to automatically update CS2, Metamod and CounterStrikeSharp
 
 Add the following to your .bashrc file
 
-Change paths where applicable, **/home/steam/steamcmd/cs2-ds/**
+Change paths where applicable, install missing libs
 
 ```bash
 cs2() {
