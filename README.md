@@ -1,6 +1,7 @@
 # CS2 Dedicated Server Linux Scripts
 
 I collection of scripts, useful for managing and updating a CS2 dedicated server.
+Has support to automatically update Metamod and CounterStrikeSharp
 
 ## Setup
 
